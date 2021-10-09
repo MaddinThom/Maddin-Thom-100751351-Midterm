@@ -1,3 +1,5 @@
-# INFR3335U-F2021-MidtermExamTemplate
+# INFR3335U-F2021-MidtermExam-100751351
 
-Midterm Exam Template for INFR3335U in the Fall 2021 Semester
+My midterm project forked from the template. I used the provided prefabs, scripts and project to develop a level where the character collects 10 coins and proceeds to the end scene, as required.
+
+Maddin Thom 100751351
