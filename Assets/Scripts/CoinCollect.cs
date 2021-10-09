@@ -11,6 +11,7 @@ public class CoinCollect : MonoBehaviour
     void Start()
     {
         coins = 0;
+        Debug.Log("Hello");
     }
 
     // Update is called once per frame
@@ -19,13 +20,12 @@ public class CoinCollect : MonoBehaviour
        
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Coin"))
+        if (other.transform.tag == "Coin")
         {
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
             coins += 1;
-            GUI.Label(new Rect(5, 5, 10, 100), coins + "/10 Coins Collected");
         }
 
         if (coins >= 10)
