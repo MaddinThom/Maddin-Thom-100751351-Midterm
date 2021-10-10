@@ -34,49 +34,6 @@ public class PlayerController : MonoBehaviour
             anim.SetInteger("AnimatorState", 0);
         }
 
-        /*******
-        if (Input.GetKey(KeyCode.W))
-        {
-            anim.SetInteger("AnimatorState", 1);
-            Vector3 pos = rb.position;
-            pos.z += movespeed * Time.deltaTime;
-            rb.position = pos;
-            rot.y = 0;
-            rb.MoveRotation(rot);
-            rot.y = 0;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            anim.SetInteger("AnimatorState", 1);
-            Vector3 pos = rb.position;
-            pos.z -= movespeed * Time.deltaTime;
-            rb.position = pos;
-            rot.y = 180;
-            rb.MoveRotation(rot);
-            rot.y = 0;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            anim.SetInteger("AnimatorState", 1);
-            Vector3 pos = rb.position;
-            pos.x -= movespeed * Time.deltaTime;
-            rb.position = pos;
-            rot.y = -90;
-            rb.MoveRotation(rot);
-            rot.y = 0;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            anim.SetInteger("AnimatorState", 1);
-            Vector3 pos = rb.position;
-            pos.x += movespeed * Time.deltaTime;
-            rb.position = pos;
-            rot.y = 90;
-            rb.MoveRotation(rot);
-            rot.y = 0;
-        }
-
-        *********/
     }
 
 }

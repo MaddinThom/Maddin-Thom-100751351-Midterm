@@ -11,7 +11,6 @@ public class CoinCollect : MonoBehaviour
     void Start()
     {
         coins = 0;
-        Debug.Log("Hello");
     }
 
     // Update is called once per frame
